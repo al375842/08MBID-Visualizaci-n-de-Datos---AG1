@@ -13,6 +13,8 @@ var visualization = d3plus
   .id('name')
   .x('year')
   .y('value')
+  .width(1000)
+  .height(500)
   .draw();
 
 d3.json(
@@ -26,6 +28,8 @@ d3.json(
       .id('name')
       .x('year')
       .y('value')
+      .width(1000)
+      .height(500)
       .axes({ ticks: 'false' })
       .draw();
   }
